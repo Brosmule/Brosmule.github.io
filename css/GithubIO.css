@@ -1,10 +1,15 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 /* CSS Document */
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  font-family: 'Koulen';
 }
 
 .navbar {
@@ -26,19 +31,19 @@ body, html {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
     display: block;
-  
   }
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/bg-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/bg-image.jpg');
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,6 +61,8 @@ body, html {
 }
 
 .hero-text button {
+  letter-spacing: 1px;
+  font-size: 15px;
   border: none;
   outline: 0;
   display: inline-block;
@@ -69,4 +76,37 @@ body, html {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+}
+
+/* Button: Image Gallery */
+
+.container {
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 50vh;
+}
+
+.btn-1,
+.btn-2 {
+  width: 300px;
+  height: 100px;
+  border: none;
+  color: whitesmoke;
+  background-color: rgb(255, 0, 68);
+  border-radius: 7px;
+  box-shadow: inset 0 0 0 0 #f9e506;
+  transition: ease-out 0.4s;
+  font-size: 2rem;
+  outline: none;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  box-shadow: inset 300px 0 0 0 #f9e506;
+  color: black;
+  cursor: pointer;
 }
