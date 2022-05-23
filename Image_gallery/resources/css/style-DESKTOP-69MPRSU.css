@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1{
+	color: #ffffff;
+	font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+	font-size: 62px;
+	fon-wight: 800;
+	lin-height: 72px;
+	text-transform: uppercase;
+	background-color: black;
+	letter-spacing: -2px;
+	margin: 30px 0 50px;
+	text-align: center;
+}
+ 
+.gallery{
+	align-content: center;
+	margin: 10px 10px;
+	
+}
+
+.gallery img{
+	widht: 230px;
+	padding: 5px;
+	filter: grayscale(80%);
+	transition: 1s;
+}
+
+
+.gallery img:hover{
+	filter: grayscale(0%);
+	transform: scale(1.06);
+
+}
