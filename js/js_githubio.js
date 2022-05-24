@@ -1,8 +1,9 @@
 // JavaScript Document
 
+let randomNumber = Math.floor(Math.random() * 10 + 1);
 var clicks = 0;
 function onClick() {
-  if (clicks === 29) {
+  if (clicks === randomNumber) {
     document.getElementById("counter").innerHTML = "Gongratulations you won";
   } else {
     clicks += 1;

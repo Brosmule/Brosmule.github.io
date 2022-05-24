@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 /* CSS Document */
 
 body,
@@ -9,13 +9,13 @@ html {
 }
 
 * {
-  font-family: 'Koulen';
+  font-family: "Koulen";
 }
 
 .navbar {
   width: 100%;
-  background-color: #555;
   overflow: auto;
+  background-color: black;
 }
 
 .navbar a {
@@ -27,7 +27,7 @@ html {
 }
 
 .navbar a:hover {
-  background-color: #000;
+  background-color: #999;
 }
 
 .active {
@@ -43,7 +43,7 @@ html {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../images/bg-image.jpg');
+    url("../images/bg-image.jpg");
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,6 +71,7 @@ html {
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .hero-text button:hover {
@@ -82,16 +83,11 @@ html {
 
 .container {
   letter-spacing: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  min-height: 50vh;
+  display: inline-table;
+  justify-content: center;
 }
 
-.btn-1,
-.btn-2 {
+.btn {
   width: 300px;
   height: 100px;
   border: none;
@@ -102,11 +98,11 @@ html {
   transition: ease-out 0.4s;
   font-size: 2rem;
   outline: none;
+  margin: 10px;
 }
 
-.btn-1:hover,
-.btn-2:hover {
-  box-shadow: inset 300px 0 0 0 #f9e506;
+.btn:hover {
+  box-shadow: inset 0px 0px 100px 0px #69e4e2;
   color: black;
   cursor: pointer;
 }
