@@ -13,6 +13,8 @@ html {
 }
 
 .navbar {
+  display: flex;
+  justify-content: center;
   width: 100%;
   overflow: auto;
   background-color: black;
@@ -83,7 +85,7 @@ html {
 
 .container {
   letter-spacing: 4px;
-  display: inline-table;
+  display: flex;
   justify-content: center;
 }
 
