@@ -4,7 +4,7 @@ let randomNumber = Math.floor(Math.random() * 10 + 1);
 var clicks = 0;
 function onClick() {
   if (clicks === randomNumber) {
-    document.getElementById("counter").innerHTML = "Gongratulations you won";
+    document.getElementById("counter").innerHTML = "Congratulations you won";
   } else {
     clicks += 1;
     document.getElementById("counter").innerHTML =
