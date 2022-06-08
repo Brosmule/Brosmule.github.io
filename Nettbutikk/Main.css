@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.burrito {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.title {
+  text-align: center;
+  border: 3px solid black;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  font-size: 45px;
+  color: black;
+  background-color: darkgrey;
+}
+#title2 {
+  margin-left: auto;
+  border: 3px solid black;
+}
+
+#title2 {
+  background-color: darkgrey;
+  font-size: 45px;
+  text-align: center;
+}
+.b {
+  font-size: 20px;
+}
+
+.title3 {
+  color: black;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 45px;
+  background-color: darkgrey;
+  color: black;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  height: 20em;
+  width: 25em;
+}
+
+.S1 {
+  font-size: medium;
+}
